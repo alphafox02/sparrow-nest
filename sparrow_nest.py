@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Sparrow Hub - multi-agent aggregator/proxy for Sparrow-WiFi Agent
+# Sparrow Nest - multi-agent aggregator/proxy for Sparrow-WiFi Agent
 
 import asyncio, os, sys, re
 from typing import Dict, List, Optional, Tuple
