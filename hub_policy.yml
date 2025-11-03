@@ -1,0 +1,28 @@
+agents:
+  #east:  http://127.0.0.1:8090
+  west: http://192.168.68.73:8020
+
+mode:
+  networks: single                # single | agg_counts | full
+  preferred_agent: west
+
+spectrum:
+  source_agent_24: west
+  source_agent_5:  west
+
+defaults:
+  falcon_targets: [west]
+  bt_targets:     [west]
+  record_targets: [west]
+
+limits:
+  top_ssids_per_channel: 50
+  min_rssi_dbm: -92
+
+safety:
+  allow_multi_deauth: false
+
+control:
+  propagate_deauth: true
+  propagate_bt: true
+  propagate_record: false
