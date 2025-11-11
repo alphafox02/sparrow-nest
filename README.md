@@ -4,7 +4,7 @@ Sparrow-Nest is a lightweight FastAPI-based hub that connects one or more Sparro
 
 ## Overview
 
-Sparrow-Nest simplifies multi-agent setups. Instead of pointing the Sparrow-WiFi GUI or Falcon tools directly at an agent, you point them to Sparrow-Nest, which takes care of routing requests to the right node based on configuration and live status.
+Sparrow-Nest simplifies multi-agent setups. Instead of pointing the Sparrow-WiFi GUI directly at an agent, you point them to Sparrow-Nest, which takes care of routing requests to the right node based on configuration and live status.
 
 ## Requirements (Ubuntu 24.04 or newer)
 
